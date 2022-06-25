@@ -1,0 +1,72 @@
+/* aqui são as fontes trazida de um link de um outro lugar */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* Alinhamento do conteudo ao centro da tela */
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* largura da caixa pai, e margin nas latereis e embaixo */
+#hero {
+    width: 592px;
+    margin: 0px auto 72px;
+}
+
+/* margin de 72 px embaixo da imagem para ter um espaco entre ela e o "h1" */
+#hero img {
+    margin-bottom: 72px;
+}
+
+/* mudando o estilo da fonte e o tamanho, e colocando uma margin de 32px entre o "h1" e o "p" */
+h1 {
+    font-family:'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+    margin-bottom: 32px;
+
+}
+/* usando o font-weight:bold para deixar o "span" em negrito */
+h1 span {
+    font-weight: bold;
+}
+
+
+/* colocando cores na tag "sapn" e "a" */
+span, a {
+    color: #FF9900;
+}
+
+/* mechendo no tamanho da font e a cor da tag P e aproveitando para usar no footer */
+P, #footer {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* aqui foi selecionado o id="fotter" buscando dentro dele a tag "a" com o + pra dizer que e o "a" anterior a o "a" */
+#footer a + a {
+    margin-left: 28px;
+}
+
+/* o id="line" nos usamos para fazer a linha colocando o tamanho da linha em width: 568 da largura
+o de altura height: 0px, e com uma margin de 0 em cima, automatico dos lados  e 8px em baixo 
+colocando uma borda de 1px spçida com uma cor hexadecimal ex:#ECEFF2 */
+#line{
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px solid #ECEFF2;
+}
+
+/* aqui nos vamos mover a imagen que esta no id="balls" usando position fixo
+colocando ele pra baixo e pra direita usando 
+bottom: 0px
+right: 0px */
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
